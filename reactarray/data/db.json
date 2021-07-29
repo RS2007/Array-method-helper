@@ -1,0 +1,216 @@
+{
+	"data": [
+	{
+	  "a": "add items or other arrays",
+	  "b": [
+		{
+		  "prop": "elements to an array",
+		  "header":"Array.splice()",
+		  "body":"Adds and/or removes elements from an array",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+		},
+		{
+		  "prop": "elements to the end of an array",
+		  "header":"Array.push()",
+		  "body":"Adds one or more elements to the end of an array and returns the new length of the array.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
+		},
+		{
+		  "prop": "elements to the front of an array",
+		  "header":"Array.unshift()",
+		  "body":"Adds one or more elements to the front of an array and returns the new length of the array",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift"
+		},
+		{
+		  "prop": "this array to other array(s) and/or value",
+		  "header":"Array.concat()",
+		  "body":"Returns a new array comprised of this array joined with other array(s) and/or value(s).",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+		}
+	  ]
+	},
+	{
+	  "a": "remove items",
+	  "b": [
+		{
+		  "prop": "element/s from an array",
+		  "header":"Array.splice()",
+		  "body":"Adds and/or removes elements from an array.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+		  
+		},
+		{
+		  "prop": "the last element of the array",
+		  "header":"Array.pop()",
+		  "body":"Removes the last element from an array and returns that element.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop"
+		},
+		{
+		  "prop": "the first element of the array",
+		  "header":"Array.shift()",
+		  "body":"Removes the first element from an array and returns that element.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift"
+		},
+		{
+		  "prop": "one or more elements in order for use, leaving the array as is",
+		  "header":"Array.slice()",
+		  "body":"The slice() method returns a shallow copy of a portion of an array into a new array object. You can specify either just the beginning element (where end will default to the arrays length) or both the beginning and the end, comma-separated. The original array will not be modified.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+		}
+	  ]
+	},
+	{
+	  "a": "find items",
+	  "b": [
+		{
+		  "prop": "one item",
+		  "content":[{
+			  "prop":"out if a certain element exists",
+			  "header":"Array.includes()",
+			  "body":"Determines whether an array contains a certain element, returning true or false as appropriate.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"},{
+			  "prop":"the first index of a particular item",
+			  "header":"Array.indexOf()",
+			  "body":"Returns the first index at which a given element can be found in the array, or -1 if it is not present.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf"},{
+			  "prop":"the last index of a particular item",
+			  "header":"Array.lastIndexOf()",
+			  "body":"Returns the last (greatest) index of an element within the array equal to the specified value, or -1 if none is found.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+			  },{
+			  "prop":"the first element that satisfies a condition",
+			  "header":"Array.find()",
+			  "body":"Returns the found value in the array, if an element in the array satisfies the provided testing function or undefined if not found. Similar to findIndex(), but it returns the item instead of the index.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+			  },{
+			  "prop":"the first index of an item that satisfies a condition",
+			  "header":"Array.findIndex()",
+			  "body":"Returns the index of the first element in the array that satisfies the provided testing function. Otherwise -1 is returned. Similar to find(), but it returns the index instead of the item.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+			  },{
+			  "prop":"a value by reducing the Array, start to finish",
+			  "header":"Array.reduce()",
+			  "body":"Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+			  },{
+			  "prop":"a value by reducing the Array, finish to start",
+			  "header":"Array.reduceRight()",
+			  "body":"Apply a function against an accumulator and each value of the array (from right-to-left) as to reduce it to a single value.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight"
+			  }],
+		  "header":"Hello",
+		  "body":"HI",
+		  "url":"Jack"
+		},
+		{
+		  "prop": "one or many items",
+		  "content":[{
+			  "prop":"values based on a condition I create",
+			  "header":"Array.filter()",
+			  "body":"Creates a new array with all of the elements of this array for which the provided filtering function returns true.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+		  },{
+			  "prop":"whether or not every item satisfies a condition",
+			  "header":"Array.every()",
+			  "body":"Returns true if every element in this array satisfies the provided testing function.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+		  },{
+			  "prop":"whether or not at least one item satisfies a condition",
+			  "header":"Array.some()",
+			  "body":"Returns true if at least one element in this array satisfies the provided testing function.",
+			  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+		  }],
+		  "header":"and",
+		  "body":"Jill",
+		  "url":"went up the hill"
+		}
+	  ]
+	},
+	{
+	  "a": "walk over items",
+	  "b": [
+		{
+		  "prop": "executing a function I will create for each element",
+		  "header":"Array.forEach()",
+		  "body":"The forEach() method executes a provided function once for each array element.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+		},
+		{
+		  "prop": "creating a new array from each element with a function I create",
+		  "header":"Array.map()",
+		  "body":"Creates a new array with the results of calling a provided function on every element in this array.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+		},
+		{
+		  "prop": "creating an iterator object",
+		  "header":"Array.entries()",
+		  "body":"Returns a new Array Iterator object that contains the key/value pairs for each index in the array. There are a lot of uses for iterators, as well as other methods used with it in conjuction, like values and keys",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries"
+		}
+	  ]
+	},
+	{
+	  "a": "return a string",
+	  "b": [
+		{
+		  "prop": "join all elements of the array into a string",
+		  "header":"Array.join()",
+		  "body":"Joins all elements of an array into a string. You can join it together as is or with something in between, elements.join(' - ') gives you foo-bar",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join"
+		},
+		{
+		  "prop": "return a string representing the array.",
+		  "header":"Array.toString()",
+		  "body":"Returns a string representing the array and its elements.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString"
+		},
+		{
+		  "prop": "return a localized string representing the array.",
+		  "header":"Array.toLocaleString()",
+		  "body":"This one is a bit wacko. Returns a localized string representing the array and its elements. This is very useful for dates and currency and has some strange native abstractions, so best to consult the docs when using it",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString"
+		}
+	  ]
+	},
+	{
+	  "a": "order an array",
+	  "b": [
+		{
+		  "prop": "reverse the order of the array",
+		  "header":"Array.reverse()",
+		  "body":"Reverses the order of the elements of an array in place — the first becomes the last, and the last becomes the first",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse"
+		},
+		{
+		  "prop": "sort the items of the array",
+		  "header":"Array.sort()",
+		  "body":"Sorts the elements of an array in place and returns the array.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+		}
+	  ]
+	},
+	{
+	  "a": "something else",
+	  "b": [
+		{
+		  "prop": "find the length of the array",
+		  "header":"Array.length",
+		  "body":"Returns the number of elements in that array.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length"
+		},
+		{
+		  "prop": "fill all the elements of the array with a static value",
+		  "header":"Array.fill()",
+		  "body":"Fills all the elements of an array from a start index to an end index with a static value.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+		},
+		{
+		  "prop": "copy a sequence of array elements within the array.",
+		  "header":"Array.copyWithin()",
+		  "body":"Copies a sequence of array elements within the array. You can specify either just the ending element (where begin will default to zero) or both the beginning and the end, comma-separated.",
+		  "url":"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin"
+		}
+	  ]
+	}
+  ]
+}
